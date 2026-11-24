@@ -1,0 +1,51 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #15371a;
+}
+
+#registerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #1e1e1e;
+    border: 2px solid #4CAF50;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#registerForm input[type="text"],
+#registerForm input[type="password"],
+#registerForm input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+#registerForm button {
+    width: 320px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#registerForm .checkboxPassword {
+    display: flex;
+    margin: 5px;
+    margin-left: 200px;
+}
+
+#registerForm .register {
+    display: flex;
+    margin-top: 10px;
+}
