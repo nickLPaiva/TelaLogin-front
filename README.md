@@ -1,2 +1,3 @@
 # TelaLogin-front
-Confecção do front de uma tela de login
+
+Esse é um projeto para aprendizado e desenvolvimento em HTML e CSS e posteriormente em JavaScript.

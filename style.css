@@ -1,0 +1,50 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #15371a;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #1e1e1e;
+    border: 2px solid #4CAF50;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#loginForm input[type="text"],
+#loginForm input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+#loginForm button {
+    width: 320px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#loginForm .checkboxPassword {
+    display: flex;
+    margin: 5px;
+    margin-left: 200px;
+}
+
+#loginForm .register {
+    display: flex;
+    margin-top: 10px;
+}
